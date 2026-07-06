@@ -19,24 +19,7 @@ let bigger4 = numbers1[0];
 let bigger5 = numbers1[0];
 let secondbiggest1 = numbers1[0];
  
-for (i = 0; i < numbers1.length; i++) {
-    if (numbers1[0] > numbers1[1]) {
-        bigger1 = numbers1[0]
-    } else { bigger1 = numbers1[1]}
-    if (bigger1 > numbers1[2]) {
-        bigger2 = bigger1
-    } else { bigger2 = numbers1[2]}
-    if (bigger2 > numbers1[3]) {
-        bigger3 = bigger2
-    } else { bigger3 = numbers1[3]}
-    if (bigger3 > numbers1[4]) {
-        bigger4 = bigger3
-    } else { bigger4 = numbers1[4]}
-    if (bigger4 > numbers1[5]) {
-        bigger5 = bigger4
-    } else { bigger5 = numbers1[4]}
-    biggest1 = bigger5
-} 
+let max = numbers1[0]`` 
  
 /* C2. COUNT DUPLICATES */
  
