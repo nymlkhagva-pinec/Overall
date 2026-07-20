@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature converter</title>
+  </head>
+  <body>
+    <link rel="stylesheet" href="gradus.css" />
+    <div id="background">
+      <div id="container">
+        <div id="input">
+          <h2>Enter Temperature</h2>
+          <div id="degree">
+            <h3>Degree</h3>
+            <input id="number" type="number" />
+            <select id="selector">
+              <option value="celsius">Celsius</option>
+              <option value="fahrenheit">Fahrenheit</option>
+              <option value="kelvin">Kelvin</option>
+            </select>
+          </div>
+          <div>
+            <h3>Convert to</h3>
+            <select id="selector1">
+              <option value="celsius1">Celsius</option>
+              <option value="fahrenheit1">Fahrenheit</option>
+              <option value="kelvin1">Kelvin</option>
+            </select>
+          </div>
+
+          <button id="button">Convert</button>
+        </div>
+        <div id="tempe">
+          <p id="greet"></p>
+        </div>
+      </div>
+      <script src="gradus.js"></script>
+    </div>
+  </body>
+</html>

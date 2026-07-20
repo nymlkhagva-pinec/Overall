@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+    background-color: whitesmoke;
+}
+
+#niit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    width: 100vw;
+    height: 500px;
+}
+#dicee{
+    font-size: 100px;
+}
+#roller{
+    width: 250px;
+    height: 70px;
+    background-color: cornflowerblue;
+    border: 2px solid cornflowerblue;
+    border-radius: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+}
+
+#roller:hover{
+    background-color: lightseagreen;
+    border: 2px solid lightseagreen;
+}
+.dice2{
+    width: 50px;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head{
+    font-size: 80px;
+}
+#history{
+    width: 900px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    gap: 50px;
+}
